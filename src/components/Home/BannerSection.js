@@ -28,6 +28,10 @@ const Wrapper = styled.div`
     margin-top: 70px;
     height: 680px;
   }
+  @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    background-image: url(${bannerImage});
+    height: 680px;
+  }
 `
 
 const Header = H2.extend`

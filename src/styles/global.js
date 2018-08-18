@@ -132,10 +132,15 @@ injectGlobal`
 	.App {
 		display: flex;
   	flex-direction: column;
+    @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    }
 	}
 	.App > .pageContent {
-		webkit-flex: 1;
+    flex: 1;
     overflow: auto;
+    @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+      -ms-flex: none;
+    }
 	}
 	.cms-content h2 {
     margin: 0.75rem 0;

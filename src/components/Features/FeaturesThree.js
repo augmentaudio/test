@@ -65,6 +65,9 @@ const ContentCol = Col.extend`
     margin-left: 0;
     left: 0;
   }
+  @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    left: -400px;
+  }
 `
 
 const FeatureTitle = styled.h4`
