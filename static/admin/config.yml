@@ -1,0 +1,170 @@
+backend:
+  name: git-gateway
+
+media_folder: "/static/files/images"
+public_folder: "/files/images"
+
+publish_mode: editorial_workflow
+
+collections:
+
+  - name: "about"
+    label: "About"
+    folder: "content/about"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Content Type", name: "contentType", widget: "hidden", default: "about"}
+      - {label: "Path", name: "path", widget: "hidden", default: "/about"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
+      - label: Members
+        name: members
+        widget: list
+        fields:
+          - {label: Photo, name: photo, widget: image }
+          - {label: Fullname, name: fullname, widget: string}
+          - {label: Position, name: position, widget: string}
+
+  - name: "automatedmarketing"
+    label: "AutomatedMarketing"
+    folder: "content/automatedmarketing"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Content Type", name: "contentType", widget: "hidden", default: "automatedmarketing"}
+      - {label: "Path", name: "path", widget: "string"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Content", name: "content", widget: "string"}
+      - {label: "Button", name: "automatedMarketingButton", widget: "string"}
+
+  - name: "banner"
+    label: "Banner"
+    folder: "content/home-banner"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - {label: "Content Type", name: "contentType", widget: "hidden", default: "banner"}
+      - {label: "Path", name: "path", widget: "string"}
+      - {label: "Header", name: "header", widget: "string"}
+      - {label: "Subtitle", name: "subtitle", widget: "string"}
+      - {label: "Button", name: "button", widget: "string"}
+      - {label: "Person Name", name: "personName", widget: "string"}
+      - {label: "Person Role", name: "personRole", widget: "string"}
+
+  - name: "benefits"
+    label: "Benefits"
+    folder: "content/benefits"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Content Type", name: "contentType", widget: "hidden", default: "automatedmarketing"}
+      - {label: "Benefit Order", name: "benefitType", widget: "select", options: "benefitOne", "benefitTwo", "benefitThree", "benefitFour"}
+      - {label: "Path", name: "path", widget: "string"}
+      - {label: "Header", name: "title", widget: "string"}
+      - {label: "Description", name: "content", widget: "string"}
+      - {label: "Image", name: image, widget: file }
+
+  - name: "blog"
+    label: "Blog"
+    folder: "content/blog"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - {label: "Content Type", name: "contentType", widget: "hidden", default: "blog"}
+      - {label: "Path", name: "path", widget: "string"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Summary", name: "summary", widget: "text"}
+      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Author", name: "author", widget: "string"}
+      - {label: "PostImage", name: "postimage", widget: "file"}
+      - {label: "NewsFlag", name: "newsFlag", widget: "boolean"}
+      - label: Tags
+        name: tags
+        widget: list
+        fields:
+          - {label: Tag, name: name, widget: string }
+
+  - name: "contact"
+    label: "Contact"
+    folder: "content/contact"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Content Type", name: "contentType", widget: "hidden", default: "contact"}
+      - {label: "Contact", name: "title", widget: "string"}
+      - {label: "Path", name: "path", widget: "string"}
+      - {label: "Mission", name: "mission", widget: "string"}
+
+  - name: "faq"
+    label: "FAQ"
+    folder: "content/faq"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - {label: "Content Type", name: "contentType", widget: "hidden", default: "faq"}
+      - {label: "Path", name: "path", widget: "string"}
+      - {label: "Question", name: "title", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
+
+  - name: "feature"
+    label: "Features"
+    folder: "content/features"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Content Type", name: "contentType", widget: "hidden", default: "feature"}
+      - {label: "Feature Order", name: "featureType", widget: "select", options: "featureOne", "featureTwo", "featureThree"}
+      - {label: "Path", name: "path", widget: "string"}
+      - {label: "Step Text", name: "step", widget: "string"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Description", name: "description", widget: "string"}
+
+  - name: "featureBanner"
+    label: "FeatureBanner"
+    folder: "content/feature-banner"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - {label: "Content Type", name: "contentType", widget: "hidden", default: "banner"}
+      - {label: "Path", name: "path", widget: "string"}
+      - {label: "Button", name: "featureButton", widget: "string"}
+
+  - name: "legal"
+    label: "Legal"
+    folder: "content/legal"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Content Type", name: "contentType", widget: "hidden", default: "legal"}
+      - {label: "Path", name: "path", widget: "string"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Summary", name: "summary", widget: "text"}
+      - {label: "Body", name: "body", widget: "markdown"}
+
+  - name: "pricing"
+    label: "Price"
+    folder: "content/price"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Content Type", name: "contentType", widget: "hidden", default: "pricing"}
+      - {label: "Pricing", name: "price", widget: "string"}
+      - {label: "Path", name: "path", widget: "string"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Note", name: "note", widget: "string"}
+      - {label: "Announcment", name: "announcement", widget: "string"}
+
+  - name: "testimonial"
+    label: "Testimonials"
+    folder: "content/testimonials"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Content Type", name: "contentType", widget: "hidden", default: "testimonial"}
+      - {label: "Name", name: "title", widget: "string"}
+      - {label: "Path", name: "path", widget: "string"}
+      - {label: "Position", name: "position", widget: "string"}
+      - {label: "Comment", name: "comment", widget: "text"}
+      - {label: Photo, name: photo, widget: file }

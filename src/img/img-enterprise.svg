@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg version="1.1" viewBox="0 0 36 35" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g transform="translate(-11039 92)">
+<use transform="matrix(4.3711e-8 -1 -1 -4.3711e-8 11064 -66.867)" fill="url(#f)" xlink:href="#d"/>
+<use transform="matrix(4.3711e-8 -1 -1 -4.3711e-8 11064 -65.9)" fill="url(#e)" xlink:href="#c"/>
+<g filter="url(#g)">
+<use transform="matrix(4.3711e-8 -1 -1 -4.3711e-8 11068 -63)" fill="#FFFFFF" xlink:href="#b"/>
+</g>
+<use transform="translate(11064 -74)" fill="#FFFFFF" xlink:href="#a"/>
+</g>
+<defs>
+<filter id="g" x="11039" y="-92" width="33" height="35" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 255 0"/>
+<feOffset dx="4" dy="6"/>
+<feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/>
+<feBlend in2="BackgroundImageFix" result="effect1_dropShadow"/>
+<feBlend in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+</filter>
+<linearGradient id="f" x2="1" gradientTransform="matrix(-18.919 -28.436 28.489 -358.72 2.7871 204.19)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#F37110" offset="0"/>
+<stop stop-color="#F0C19E" offset="1"/>
+</linearGradient>
+<linearGradient id="e" x2="1" gradientTransform="matrix(-46.71 -18.15 -336.3 -445.62 180.82 232.15)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#F37110" offset="0"/>
+<stop stop-color="#F0C19E" offset="1"/>
+</linearGradient>
+<path id="d" d="m21.267 10.614c0 5.8617-4.7607 10.614-10.633 10.614-5.8726 0-10.633-4.7518-10.633-10.614 0-5.8617 4.7607-10.614 10.633-10.614 5.8727 0 10.633 4.7518 10.633 10.614z"/>
+<path id="c" d="m17.089 19.04c-0.1372 0.0049-0.2751 0.0079-0.4136 0.0079-5.8726 0-10.633-4.751-10.633-10.613 0-3.4385 1.6383-6.4951 4.1782-8.4346-5.6811 0.2168-10.22 4.8818-10.22 10.606-2.5625e-7 5.8623 4.7607 10.613 10.633 10.613 2.4278 0 4.6656-0.8116 6.4555-2.1788z" fill-rule="evenodd"/>
+<path id="b" d="m14.5 24.122c5.3388 0 9.6667-4.3198 9.6667-9.6486 0-5.3288-4.3279-9.6487-9.6667-9.6487-5.3388 0-9.6667 4.3198-9.6667 9.6487 0 5.3288 4.3279 9.6486 9.6667 9.6486zm0 4.8243c8.0081 0 14.5-6.4797 14.5-14.473 0-7.9932-6.4919-14.473-14.5-14.473-8.0081 0-14.5 6.4798-14.5 14.473 0 7.9932 6.4919 14.473 14.5 14.473z" fill-rule="evenodd"/>
+<path id="a" d="m3-6c-1.6568 0-3 1.3432-3 3s1.3432 3 3 3v-6zm5 6c1.6568 0 3-1.3432 3-3s-1.3432-3-3-3v6zm-5 0h5v-6h-5v6z"/>
+</defs>
+</svg>

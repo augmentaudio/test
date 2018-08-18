@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg version="1.1" viewBox="0 0 375 667" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g transform="translate(-6128 512)">
+<use transform="translate(6128 -512)" fill="url(#b)" xlink:href="#a"/>
+</g>
+<defs>
+<linearGradient id="b" x2="1" gradientTransform="matrix(-383.79 -651.28 366.16 -2282.5 197.63 1808.2)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#495CF2" offset="0"/>
+<stop stop-color="#2438D6" stop-opacity=".9" offset="1"/>
+</linearGradient>
+<path id="a" d="m0 0h375v667h-375v-667z"/>
+</defs>
+</svg>

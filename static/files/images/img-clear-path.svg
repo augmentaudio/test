@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg version="1.1" viewBox="0 0 86 59" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g transform="translate(-3292 -1828)">
+<use transform="translate(3293 1829.8)" fill="#3D54FF" xlink:href="#j"/>
+<use transform="translate(3366.5 1829.8)" fill="#FF842B" xlink:href="#i"/>
+<use transform="translate(3293 1874.7)" fill="#3D54FF" xlink:href="#h"/>
+<use transform="translate(3366.5 1874.7)" fill="#FF842B" xlink:href="#g"/>
+<use transform="translate(3305.2 1845.4)" fill="#3D54FF" xlink:href="#c"/>
+<use transform="translate(3352.5 1845.4)" fill="#FF842B" xlink:href="#c"/>
+<use transform="translate(3303.5 1867.8)" fill="#3D54FF" xlink:href="#b"/>
+<use transform="translate(3314 1876.5)" fill="#3D54FF" xlink:href="#a"/>
+<use transform="translate(3340.2 1876.5)" fill="#FF842B" xlink:href="#a"/>
+<use transform="translate(3340.2 1867.8)" fill="#FF842B" xlink:href="#b"/>
+<use transform="translate(3293 1829.8)" fill="#3D54FF" xlink:href="#f"/>
+<use transform="translate(3340.2 1829.8)" fill="#FF842B" xlink:href="#e"/>
+<use transform="matrix(6.2038e-17 1 -1 6.0437e-17 3333.2 1829.8)" fill="#3D54FF" xlink:href="#d"/>
+</g>
+<defs>
+<path id="j" d="m9.5 0c0 5.1596-4.2404 9.3636-9.5 9.3636v2c6.3394 0 11.5-5.0748 11.5-11.364h-2z"/>
+<path id="i" d="m10.5 9.3636c-5.2596 0-9.5-4.204-9.5-9.3636h-2c0 6.2888 5.1606 11.364 11.5 11.364v-2z"/>
+<path id="h" d="m0 1c5.2596 0 9.5 4.204 9.5 9.3636h2c0-6.2887-5.1606-11.364-11.5-11.364v2z"/>
+<path id="g" d="m1 10.364c0-5.1596 4.2404-9.3636 9.5-9.3636v-2c-6.3394 0-11.5 5.0749-11.5 11.364h2z"/>
+<path id="c" d="m0 0v-1h-1v1h1zm12.25 0h1v-1h-1v1zm0 6.9091v1h1v-1h-1zm-12.25 0h-1v1h1v-1zm0-5.9091h12.25v-2h-12.25v2zm11.25-1v6.9091h2v-6.9091h-2zm1 5.9091h-12.25v2h12.25v-2zm-11.25 1v-6.9091h-2v6.9091h2z"/>
+<path id="b" d="m0 1h26.25v-2h-26.25v2z"/>
+<path id="a" d="m0 1h15.75v-2h-15.75v2z"/>
+<path id="f" d="m0 55.273h-1c0 0.5523 0.44772 1 1 1l-2.2204e-16 -1zm0-55.273v-1c-0.55228 0-1 0.44772-1 1l1-2.2204e-16zm36.75 54.273h-36.75v2h36.75v-2zm-35.75 1v-55.273h-2v55.273h2zm-1-54.273h36.75v-2h-36.75v2z"/>
+<path id="e" d="m36.75 0h1c0-0.55228-0.4477-1-1-1v1zm0 55.273v1c0.5523 0 1-0.4477 1-1h-1zm-36.75-54.273h36.75v-2h-36.75v2zm35.75-1v55.273h2v-55.273h-2zm1 54.273h-36.75v2h36.75v-2z"/>
+<path id="d" d="m0 0h57v-2h-57v2z"/>
+</defs>
+</svg>

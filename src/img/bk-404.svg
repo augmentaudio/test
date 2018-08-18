@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg version="1.1" viewBox="0 0 1280 800" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g transform="translate(-8582 512)">
+<clipPath id="e" clip-rule="evenodd">
+<path d="m8582-512h1280v800h-1280v-800z" fill="#fff"/>
+</clipPath>
+<g clip-path="url(#e)">
+<path d="m8582-512h1280v800h-1280v-800z" fill="#fff"/>
+<use transform="translate(8582 -512)" fill="url(#d)" xlink:href="#c"/>
+<use transform="translate(8472 -105)" fill="#3849D6" fill-opacity=".5" xlink:href="#b"/>
+<use transform="translate(8653 -233)" fill="#FFFFFF" fill-opacity=".05" xlink:href="#a"/>
+</g>
+</g>
+<defs>
+<linearGradient id="d" x2="1" gradientTransform="matrix(1280 800 -1280 2048 640 -1024)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#495CF2" offset="0"/>
+<stop stop-color="#2438D6" stop-opacity=".9" offset="1"/>
+</linearGradient>
+<path id="c" d="m0 0h1280v800h-1280v-800z"/>
+<path id="b" d="m341.08 170.5c0 94.165-76.353 170.5-170.54 170.5-94.187 0-170.54-76.335-170.54-170.5 0-94.165 76.354-170.5 170.54-170.5 94.188 0 170.54 76.335 170.54 170.5z"/>
+<path id="a" d="M 301 150.5C 301 233.619 233.619 301 150.5 301C 67.3811 301 0 233.619 0 150.5C 0 67.3811 67.3811 0 150.5 0C 233.619 0 301 67.3811 301 150.5Z"/>
+</defs>
+</svg>
