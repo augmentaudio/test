@@ -10,8 +10,8 @@ const Wrapper = styled.div`
   background: #f5f7fa;
   padding-top: 20px;
   padding-bottom: 20px;
-  @media all and (-ms-high-contrast: none), (-ms-high-contrast: active)
-    padding-bottom: 150px;
+  @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  padding-bottom: 150px;
   }
 `
 
