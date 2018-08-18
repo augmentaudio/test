@@ -135,6 +135,7 @@ injectGlobal`
 	}
 	.App > .pageContent {
 		webkit-flex: 1;
+    overflow: auto;
 	}
 	.cms-content h2 {
     margin: 0.75rem 0;
