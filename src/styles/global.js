@@ -132,8 +132,6 @@ injectGlobal`
 	.App {
 		display: flex;
   	flex-direction: column;
-    @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-    }
 	}
 	.App > .pageContent {
     flex: 1;
