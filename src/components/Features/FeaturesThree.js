@@ -11,7 +11,7 @@ const Wrapper = styled.div`
   padding-top: 20px;
   padding-bottom: 20px;
   @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-    padding-bottom: 150px;
+    padding-bottom: 180px;
   }
 `
 
