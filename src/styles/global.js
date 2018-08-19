@@ -3,59 +3,73 @@ import { injectGlobal } from 'styled-components'
 injectGlobal`
   @font-face {
 	  font-family: GTWalsheimBold;
-	  src: url(/files/fonts/GT-Walsheim/GT-Walsheim-Bold.ttf);
+    src: url(/files/fonts/GT-Walsheim/GT-Walsheim-Bold.ttf) ('truetype'),
+	  url(/files/fonts/GT-Walsheim/GT-Walsheim-Bold.woff) format('woff');
   }
 	@font-face {
 	  font-family: GTWalsheimMedium;
-	  src: url(/files/fonts/GT-Walsheim/GT-Walsheim-Medium.ttf);
+    src: url(/files/fonts/GT-Walsheim/GT-Walsheim-Medium.ttf) ('truetype'),
+	  url(/files/fonts/GT-Walsheim/GT-Walsheim-Medium.woff) format('woff');
 	}
 	@font-face {
 	  font-family: AvenirNextBold;
-	  src: url(/files/fonts/AvenirNext/AvenirNext-Bold.ttf) format('truetype');
+    src: url(/files/fonts/AvenirNext/AvenirNext-Bold.ttf) ('truetype'),
+	  url(/files/fonts/AvenirNext/AvenirNext-Bold.woff) format('woff');
 	}
 	@font-face {
 	  font-family: AvenirNextBoldItalic;
-	  src: url(/files/fonts/AvenirNext/AvenirNext-BoldItalic.ttf) format('truetype');
+	  src: url(/files/fonts/AvenirNext/AvenirNext-BoldItalic.ttf) format('truetype'),
+    url(/files/fonts/AvenirNext/AvenirNext-BoldItalic.woff) format('woff');
 	}
 	@font-face {
 	  font-family: AvenirNextDemiBold;
-	  src: url(/files/fonts/AvenirNext/AvenirNext-DemiBold.ttf) format('truetype');
+	  src: url(/files/fonts/AvenirNext/AvenirNext-DemiBold.ttf) format('truetype'),
+    url(/files/fonts/AvenirNext/AvenirNext-DemiBold.woff) format('woff');
 	}
 	@font-face {
 	  font-family: AvenirNextDemiBoldItallic;
-	  src: url(/files/fonts/AvenirNext/AvenirNext-DemiBoldItalic.ttf) format('truetype');
+	  src: url(/files/fonts/AvenirNext/AvenirNext-DemiBoldItalic.ttf) format('truetype'),
+    url(/files/fonts/AvenirNext/AvenirNext-DemiBoldItalic.woff) format('woff');
 	}
 	@font-face {
 	  font-family: AvenirNextHeavy;
-	  src: url(/files/fonts/AvenirNext/AvenirNext-Heavy.ttf) format('truetype');
+	  src: url(/files/fonts/AvenirNext/AvenirNext-Heavy.ttf) format('truetype'),
+    url(/files/fonts/AvenirNext/AvenirNext-Heavy.woff) format('woff');
 	}
 	@font-face {
 	  font-family: AvenirNextHeavyItallic;
-	  src: url(/files/fonts/AvenirNext/AvenirNext-HeavyItalic.ttf) format('truetype');
+	  src: url(/files/fonts/AvenirNext/AvenirNext-HeavyItalic.ttf) format('truetype'),
+    url(/files/fonts/AvenirNext/AvenirNext-HeavyItalic.woff) format('woff');
 	}
 	@font-face {
 	  font-family: AvenirNextBoldItallic;
-	  src: url(/files/fonts/AvenirNext/AvenirNext-DemiBoldItalic.ttf) format('truetype');
+	  src: url(/files/fonts/AvenirNext/AvenirNext-DemiBoldItalic.ttf) format('truetype'),
+    url(/files/fonts/AvenirNext/AvenirNext-DemiBoldItalic.woff) format('woff');
 	}
 	@font-face {
 	  font-family: AvenirNextMedium;
-	  src: url(/files/fonts/AvenirNext/AvenirNext-Medium.ttf) format('truetype');
+	  src: url(/files/fonts/AvenirNext/AvenirNext-Medium.ttf) format('truetype'),
+    url(/files/fonts/AvenirNext/AvenirNext-Medium.woff) format('woff');
 	}
 	@font-face {
 	  font-family: AvenirNextMediumItalic;
-	  src: url(/files/fonts/AvenirNext/AvenirNext-MediumItalic.ttf) format('truetype');
+	  src: url(/files/fonts/AvenirNext/AvenirNext-MediumItalic.ttf) format('truetype'),
+    url(/files/fonts/AvenirNext/AvenirNext-MediumItalic.woff) format('woff');
 	}
 	@font-face {
 	  font-family: AvenirNextRegular;
-	  src: url(/files/fonts/AvenirNext/AvenirNext-Regular.ttf) format('truetype');
+	  src: url(/files/fonts/AvenirNext/AvenirNext-Regular.ttf) format('truetype'),
+    url(/files/fonts/AvenirNext/AvenirNext-Regular.woff) format('woff');
 	}
 	@font-face {
 	  font-family: AvenirNextUltraLight;
-	  src: url(/files/fonts/AvenirNext/AvenirNext-UltraLight.ttf) format('truetype');
+	  src: url(/files/fonts/AvenirNext/AvenirNext-UltraLight.ttf) format('truetype'),
+    url(/files/fonts/AvenirNext/AvenirNext-UltraLight.woff) format('woff');
 	}
 	@font-face {
 	  font-family: AvenirNextUltraLightItalic;
-	  src: url(/files/fonts/AvenirNext/AvenirNext-UltraLightItalic.ttf) format('truetype');
+	  src: url(/files/fonts/AvenirNext/AvenirNext-UltraLightItalic.ttf) format('truetype'),
+    url(/files/fonts/AvenirNext/AvenirNext-UltraLightItalic.woff) format('woff');
 	}
   h1 {
 		font-family: 'GTWalsheimMedium';
